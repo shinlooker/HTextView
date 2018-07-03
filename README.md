@@ -26,7 +26,7 @@ see [iOS Effects](https://github.com/lexrus/LTMorphingLabel)
 
 
 ```
-def htextview_version = "0.1.2"
+def htextview_version = "0.1.6"
 // as 3.0 use implementation
 compile "com.hanks:htextview-base:$htextview_version"        // base library
 
@@ -128,6 +128,12 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
     android:text="this is init sentence"
     android:textSize="16sp"/>
 ```
+
+## Third Party Bindings
+
+### React Native
+You may now use this library with [React Native](https://github.com/facebook/react-native) via the module [here](https://github.com/prscX/react-native-morphing-text)
+
 
 ## License
 
